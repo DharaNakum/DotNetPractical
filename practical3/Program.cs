@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Text.RegularExpressions;
 namespace practical3
 {
     class Program
@@ -12,8 +12,11 @@ namespace practical3
         {
             string name;
             string country;
-            Console.WriteLine("Please enter your name...");
-            name = Console.ReadLine();
+            do
+            {
+                Console.WriteLine("Please enter your name...");
+                name = Console.ReadLine();
+            } while (!Regex.IsMatch(name,"^[a-zA-z]+$"));
             Console.WriteLine("Please enter your country name...");
             country = Console.ReadLine();
 
@@ -21,19 +24,4 @@ namespace practical3
             Console.Read();
         }
     }
-    /*abstract class Salesman
-    {
-        String firstname;
-        String lastname;
-        Salesman(string firstname,string lastname)
-        {
-            this.firstname = firstname;
-            this.lastname = lastname;
-        }
-        static void sell()
-        {
-            Console.WriteLine("your name is ");
-        }
-   
-    }*/
 }

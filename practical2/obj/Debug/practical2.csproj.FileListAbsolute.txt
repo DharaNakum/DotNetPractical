@@ -1,6 +1,6 @@
-D:\BE_Computer\6th sem\net\DotNetpractical\practical2\bin\Debug\practical2.exe.config
-D:\BE_Computer\6th sem\net\DotNetpractical\practical2\bin\Debug\practical2.exe
-D:\BE_Computer\6th sem\net\DotNetpractical\practical2\bin\Debug\practical2.pdb
-D:\BE_Computer\6th sem\net\DotNetpractical\practical2\obj\Debug\practical2.csprojAssemblyReference.cache
-D:\BE_Computer\6th sem\net\DotNetpractical\practical2\obj\Debug\practical2.exe
-D:\BE_Computer\6th sem\net\DotNetpractical\practical2\obj\Debug\practical2.pdb
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical2\bin\Debug\practical2.exe.config
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical2\bin\Debug\practical2.exe
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical2\bin\Debug\practical2.pdb
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical2\obj\Debug\practical2.csprojAssemblyReference.cache
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical2\obj\Debug\practical2.exe
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical2\obj\Debug\practical2.pdb

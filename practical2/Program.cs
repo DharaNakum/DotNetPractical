@@ -15,6 +15,7 @@ namespace practical2
             pattern2();//this will call pattern2
             Console.WriteLine("");
             pattern3();//this will call pattern3
+            Console.Read();
         }
 
         private static void pattern3()
@@ -54,5 +55,5 @@ namespace practical2
             }
         }
     }
-   
+
 }

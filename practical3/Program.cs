@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
+
 namespace practical3
 {
     class Program
@@ -16,9 +17,12 @@ namespace practical3
             {
                 Console.WriteLine("Please enter your name...");
                 name = Console.ReadLine();
-            } while (!Regex.IsMatch(name,"^[a-zA-z]+$"));
-            Console.WriteLine("Please enter your country name...");
-            country = Console.ReadLine();
+            } while (!Regex.IsMatch(name, "^[a-zA-Z]+$"));
+            do
+            {
+                Console.WriteLine("Please enter your country name...");
+                country = Console.ReadLine();
+            } while (!Regex.IsMatch(name, "^[a-zA-Z]+$"));
 
             Console.WriteLine("Hello " + name + " from " + country);
             Console.Read();

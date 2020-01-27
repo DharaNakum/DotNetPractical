@@ -1,0 +1,6 @@
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical4\bin\Debug\practical4.exe.config
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical4\bin\Debug\practical4.exe
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical4\bin\Debug\practical4.pdb
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical4\obj\Debug\practical4.csprojAssemblyReference.cache
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical4\obj\Debug\practical4.exe
+D:\BE_Computer\6th sem\net\DotNetpracticals\practical4\obj\Debug\practical4.pdb

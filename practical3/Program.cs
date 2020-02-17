@@ -22,7 +22,7 @@ namespace practical3
             {
                 Console.WriteLine("Please enter your country name...");
                 country = Console.ReadLine();
-            } while (!Regex.IsMatch(name, "^[a-zA-Z]+$"));
+            } while (!Regex.IsMatch(country, "^[a-zA-Z]+$"));
 
             Console.WriteLine("Hello " + name + " from " + country);
             Console.Read();

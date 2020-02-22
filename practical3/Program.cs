@@ -12,7 +12,7 @@ namespace practical3
         static void Main(string[] args)
         {
             string name;
-            string country;
+            string Country;
             do
             {
                 Console.WriteLine("Please enter your name...");
@@ -21,10 +21,10 @@ namespace practical3
             do
             {
                 Console.WriteLine("Please enter your country name...");
-                country = Console.ReadLine();
-            } while (!Regex.IsMatch(country, "^[a-zA-Z]+$"));
+                Country = Console.ReadLine();
+            } while (!Regex.IsMatch(Country, "^[a-zA-Z]+$"));
 
-            Console.WriteLine("Hello " + name + " from " + country);
+            Console.WriteLine("Hello " + name + " from " + Country);
             Console.Read();
         }
     }

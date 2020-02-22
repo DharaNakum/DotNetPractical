@@ -121,9 +121,10 @@ namespace practical4
             Console.WriteLine("your binary value is...");
             while(i>=0)
             {
-                Console.WriteLine(rem[i]);
+                Console.Write(rem[i]);
                 i--;
             }
+            Console.WriteLine("");
         }
         private static void octaconv(int v)
         {
@@ -139,9 +140,10 @@ namespace practical4
             i--;
             while (i >= 0)
             {
-                Console.WriteLine(rem[i]);
+                Console.Write(rem[i]);
                 i--;
             }
+            Console.WriteLine("");
         }
         private static void hexaconv(int v)
         {

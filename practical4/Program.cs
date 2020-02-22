@@ -10,11 +10,75 @@ namespace practical4
     {
         static void Main(string[] args)
         {
+            string ch,number;
+            int num;
+            while (true)
+            {
+                Console.WriteLine("1. Decimal to Binary conversion");
+                Console.WriteLine("2. Decimal to octa conversion");
+                Console.WriteLine("3. Decimal to hexa conversion");
+                Console.WriteLine("4. Binary to Binary conversion");
+                Console.WriteLine("5. Exit");
+                Console.WriteLine("Enter value...");
+                ch = Console.ReadLine();
+                char c = Char.Parse(ch);
+                //int c = Int32.Parse(ch);
+               switch(c)
+                {
+                    case '1':
+                        {
+                            Console.WriteLine("Enter value...");
+                            number = Console.ReadLine();
+                            num = Int32.Parse(number);
+                            Console.WriteLine("number: " + num);
+                            binaryconv(num);
+                            break;
+                        }
+                    case '2':
+                        {
+                            Console.WriteLine("Enter value...");
+                            number = Console.ReadLine();
+                            num = Int32.Parse(number);
+                            Console.WriteLine("number: " + num);
+                            octaconv(num);
+                            break;
+                        }
+                    case '3':
+                        {
+                            Console.WriteLine("Enter value...");
+                            number = Console.ReadLine();
+                            num = Int32.Parse(number);
+                            Console.WriteLine("number: " + num);
+                            hexaconv(num);
+                            break;
+                        }
+                    case '4':
+                        {
+                            Console.WriteLine("Enter binary number...");
+                            number = Console.ReadLine();
+                            num = Int32.Parse(number);
+                            Console.WriteLine("number: " + num);
+                            deciconv(num);
+                            break;
+                        }
+                    case '5':
+                        goto outer;
+                        break;
+                    default:
+                        Console.WriteLine("Try again...");
+                        goto outer;
+                        break;
+                }
+            }
+           
+           // string number = Console.ReadLine();
+            //int num = Int32.Parse(number);
+            Console.WriteLine("number: " + num);
             binaryconv(8);
             octaconv(15);
             hexaconv(10);
             deciconv(1010);
-            Console.Read();
+           outer : Console.Read();
         }
 
         private static void deciconv(int v)

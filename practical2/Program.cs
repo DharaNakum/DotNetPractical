@@ -24,7 +24,7 @@ namespace practical2
             {
                 for (int j = 1; j <= i; j++)
                 {
-                    Console.Write(j);
+                    Console.Write("*");
                 }
                 Console.WriteLine("");
             }

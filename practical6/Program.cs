@@ -12,7 +12,7 @@ namespace Practical5
         {
             int T;
            
-                Console.Write("Please Enter the Number below 10000 : ");
+                Console.Write("Enter the Number below 10000 : ");
                 String number = Console.ReadLine();
                 Queue<Char> queue = new Queue<char>();
                 for (int i = 0; i < number.Length; i++)
